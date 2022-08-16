@@ -44,4 +44,4 @@ sharepoint way to contain database informations but very user friendly and exten
 - Possibility to calculate column based on another
 - Possibility to add form and column validation -> seems to work correctly by going to the old version when clicking on gear icon
 - Possibility to add conditional formatting, either on column only or propagate to full row
-- Possibility to add alerts
+- Possibility to add alerts to receive mails on changes
