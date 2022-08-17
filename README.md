@@ -45,3 +45,40 @@ sharepoint way to contain database informations but very user friendly and exten
 - Possibility to add form and column validation -> seems to work correctly by going to the old version when clicking on gear icon
 - Possibility to add conditional formatting, either on column only or propagate to full row
 - Possibility to add alerts to receive mails on changes
+
+# Power Automate crash course
+
+Powerautomate comes with office 365E5 so it should be installed already
+
+## What it is
+
+Microsoft solution to automate any task:
+
+- Tasks can be simple or complex
+- Tasks can use any application
+- Tasks can have interactions from people
+
+## Flows
+
+### Introduction
+
+Flows are available when clicking on My flows
+There are also a lot of already built templates that can serve as inspiration
+
+A flow is a visual representation of any task composed of a trigger and one or several actions.
+
+Flows can be fairly complex (loops, conditions, approvals)
+
+### Type of flows
+
+There are 5 main type of flows
+
+Is the flow complex? Is the data a default table in Microsoft dataverserse ?
+
+- If yes: **Business process flow** (very specific usecase)
+- If no, What actions should be automated?
+  - If Power Automate Connectors (includes Http requests), Desktop, Web (RPA): **Desktop flow** (if an application does not have a connector I have to use a desktop flow. If it has one, i have the choice)
+  - Else, Power Automate Connectors. How to trigger the flow?
+    - Event: **Automated cloud flow**
+    - CLick: **Instant cloud flow**
+    - Time: **Scheduled cloud flow**
