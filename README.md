@@ -80,5 +80,35 @@ Is the flow complex? Is the data a default table in Microsoft dataverserse ?
   - If Power Automate Connectors (includes Http requests), Desktop, Web (RPA): **Desktop flow** (if an application does not have a connector I have to use a desktop flow. If it has one, i have the choice)
   - Else, Power Automate Connectors. How to trigger the flow?
     - Event: **Automated cloud flow**
-    - CLick: **Instant cloud flow**
+    - Click: **instant cloud flow**
     - Time: **Scheduled cloud flow**
+
+## Notes
+
+- in flows, booleans evaluate to true or false without uppercase
+- approvals evaluate to Approve or Reject. It can be completed with teams by choosing the approvals app or by mail
+
+# Powerapps crash course
+
+Powerapps comes with office 365E5 so it should be installed already
+
+## What it is
+
+Suite of apps, services, connectors and data platform that provides a rapid application development
+environment to build custom apps.
+
+Note that it is data platform agnostic so we can use a different data platform
+
+## Features
+
+- Easy to use
+- can be run everywhere
+- can be connected to anything
+- can be customized
+
+## Notes
+
+- Actions start with On
+- set variables with `Set(var_name, var_value)`. List of variables can be seen in variables ribbon
+- functions : https://docs.microsoft.com/en-us/power-platform/power-fx/formula-reference
+- galleries and forms: when submitting the form, powerapps can modify the underlying data source
